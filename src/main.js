@@ -32,10 +32,3 @@ library.add(faCircleXmark, faCircleDown, faShareFromSquare, faLocationDot)
 /* font awesome 컴포넌트를 전역으로 등록 */
 app.component('font-awesome-icon', FontAwesomeIcon)
 
-
-//
-
-// import TuiGrid from "vue3-tui-grid"
-// import 'tui-grid/dist/tui-grid.css';
-// // import "tui-date-picker/dist/tui-date-picker.css"; // use datepicker
-// createApp(App).use(TuiGrid).mount('#app')
