@@ -69,7 +69,7 @@
 
             background-color: rgba(var(--white), .8);
             border-radius: .25rem .25rem 0 0;
-            max-width: 10rem;
+            // max-width: 10rem;
             padding: 1.2rem 0;
 
             &.recent-page {

@@ -25,8 +25,17 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faCircleXmark, faCircleDown, faShareFromSquare } from '@fortawesome/free-regular-svg-icons'
 
 
+
 /* 위에서 import한 아이콘들을 Core library에 등록 */
 library.add(faCircleXmark, faCircleDown, faShareFromSquare, faLocationDot)
 
 /* font awesome 컴포넌트를 전역으로 등록 */
 app.component('font-awesome-icon', FontAwesomeIcon)
+
+
+//
+
+// import TuiGrid from "vue3-tui-grid"
+// import 'tui-grid/dist/tui-grid.css';
+// // import "tui-date-picker/dist/tui-date-picker.css"; // use datepicker
+// createApp(App).use(TuiGrid).mount('#app')
