@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
     <SubpHero />
         <section class="test-common-inner">
             <h1 data-common-head-title>UI 테스트용</h1>
@@ -183,4 +183,4 @@
         display: flex;
     }
 
-</style> -->
+</style>
