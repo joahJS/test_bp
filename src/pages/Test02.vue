@@ -111,7 +111,15 @@
                 {
                     header: '사용',
                     name: 'use',
-                    editor: 'text'
+                    editor: {
+                        type: 'select',
+                        options: {
+                            listItems: [
+                                { text: 'Y', value: 'Y' },
+                                { text: 'N', value: 'N' }
+                            ]
+                        }
+                    }
                 },
                 {
                     header: '사용자등급',
